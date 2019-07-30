@@ -17,7 +17,7 @@
             </tr>
     </table></nav>
     <header>
-        Capacitación Alejos
+        <p>Capacitación Alejos</p>
     </header>
     </body>
 </html>
