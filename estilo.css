@@ -7,10 +7,10 @@ nav table{
     font-size: 10;
 }
 header table{
+    top: 39px;
     width: 100%;
 }
 header h1{
-    top: 39px;
     display:block;
     text-align:center;
     position: relative;
