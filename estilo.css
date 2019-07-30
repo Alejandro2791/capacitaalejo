@@ -12,9 +12,8 @@ header h1{
     position: relative;
     color: #0000FF;
 }
-.Contenido section p{
+.Contenido section table{
     position: relative;
-    display: block;
     top:198px;
     left: 195px;
     width: 672px;
