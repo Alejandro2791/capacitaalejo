@@ -6,13 +6,15 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
     <body>
-        <nav><table><tr>
-            <td>Nosotros</td>
-            <td>Curso de Capacitación</td>
-            <td>Talleres</td>
-            <td>Diplomados</td>
-            <td>Conferencias</td>
-            <td>Contacto</td>
-        </tr></table></nav>
+        <nav><table>
+            <tr>
+            <td>Nosotros<br></td>
+            <td>Curso de Capacitación<br></td>
+            <td>Talleres<br></td>
+            <td>Diplomados<br></td>
+            <td>Conferencias<br></td>
+            <td>Contacto<br></td>
+            </tr>
+    </table></nav>
     </body>
 </html>
