@@ -8,7 +8,9 @@ nav table{
 }
 header h2{
     top: 54px;
-    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26;
