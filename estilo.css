@@ -3,4 +3,6 @@ nav table{
     float: right;
     position: relative;
     border-spacing: 10px 5px;
+    font-family: Arial;
+    font-size: 10;
 }

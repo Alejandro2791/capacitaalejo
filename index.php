@@ -16,5 +16,8 @@
             <td>Contacto</td>
             </tr>
     </table></nav>
+    <header>
+        Capacitación Alejos
+    </header>
     </body>
 </html>
