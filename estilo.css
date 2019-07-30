@@ -9,4 +9,8 @@ nav table{
 header{
     height: 54px;
     float: center;
+    position: relative;
+    font-family: Open sans-serif;
+    font-size: 26;
+    color: #0000FF;
 }
