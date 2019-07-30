@@ -1,5 +1,5 @@
 nav table{
     height: 29px;
-    right: 0px;
+    float: right;
     position: relative;
 }
