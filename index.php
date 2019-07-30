@@ -8,12 +8,12 @@
     <body>
         <nav><table>
             <tr>
-            <td>Nosotros<br></td>
-            <td>Curso de Capacitación<br></td>
-            <td>Talleres<br></td>
-            <td>Diplomados<br></td>
-            <td>Conferencias<br></td>
-            <td>Contacto<br></td>
+            <td>Nosotros<br><br></td>
+            <td>Curso de Capacitación<br><br></td>
+            <td>Talleres<br><br></td>
+            <td>Diplomados<br><br></td>
+            <td>Conferencias<br><br></td>
+            <td>Contacto<br><br></td>
             </tr>
     </table></nav>
     </body>
