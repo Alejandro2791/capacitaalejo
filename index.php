@@ -17,11 +17,15 @@
             </tr>
     </table></nav>
     <header>
-        <h1>Capacitación Alejos<h1>
+        <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
     </header>
     <div id="Contenido">
     <section>
+        <table>
+        <tr><td>
         <p>Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam pharetra eget.</p>
+        </td></tr>
+        </table>   
     </section>
     </div>
     </body>
