@@ -8,7 +8,7 @@ nav table{
 }
 header p{
     top: 54px;
-    text-align: center;
+    float: center;
     position: relative;
     font-family: Open sans-serif;
     font-size: 26;
