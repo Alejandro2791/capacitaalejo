@@ -10,7 +10,7 @@
             <tr>
             <td>Nosotros</td>
             <td>Curso de Capacitación</td>
-            <td>Talleres<</td>
+            <td>Talleres</td>
             <td>Diplomados</td>
             <td>Conferencias</td>
             <td>Contacto</td>
