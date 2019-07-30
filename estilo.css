@@ -2,4 +2,5 @@ nav table{
     height: 29px;
     float: right;
     position: relative;
+    border-spacing: 10px 5px;
 }
