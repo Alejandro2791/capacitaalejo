@@ -58,13 +58,14 @@
         <hr size="2" color=#000000 width="850"/>      
     </section>
     </div>
+    <br><br><br><br><br><br><br><br>
     <footer>
-    </footer>
     <table id="Tabla4">
         <tr><td id="Parrafo_tabla4">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
             ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
              mauris eus, cum eros quis a</td></tr>
 </table>
+    </footer>
     </body>
 </html>
