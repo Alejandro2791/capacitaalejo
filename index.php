@@ -35,6 +35,7 @@
         </td></tr>
         </table>
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
+        <hr/>
         <table id="Tabla3">
             <tr><td>Misión</td>
             <td>Visión</td></tr>
@@ -52,7 +53,8 @@
                      wisi. Nulla wisi laoreet suspendisse integer vivamus elit
                       eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
                       pharetra eget.</td></tr>
-        <table>        
+        <table>
+        <hr/>      
     </section>
     </div>
     </body>
