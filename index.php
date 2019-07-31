@@ -38,8 +38,8 @@
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
         <hr size="2" color=#000000 width="700"/>
         <table id="Tabla3" align="center">
-            <tr><td>Misión</td>
-            <td>Visión</td></tr>
+            <tr><th>Misión</th>
+            <th>Visión</th></tr>
             <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
                      dolor ac odio mauris justo. Luctus arcu, urna praesent 
                      at id quisque ac. Arcu es massa vestibulum malesuada, 
