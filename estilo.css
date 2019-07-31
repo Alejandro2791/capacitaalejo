@@ -47,6 +47,8 @@ header h1{
     font-size: 20px;
 }
 #Tabla3{
+    table-layout: fixed;
+    width: 700px;
     position: relative;
     top: 45px;
 }
