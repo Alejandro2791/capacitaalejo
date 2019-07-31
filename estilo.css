@@ -70,3 +70,6 @@ th{
     text-align: center;
     color: #FFFFFF;
 }
+a:link{
+    text-decoration:none;
+}

@@ -7,12 +7,12 @@
 </head>
     <body>
         <nav><table>
-            <tr>
-            <td>Nosotros</td>
-            <td>Curso de Capacitación</td>
-            <td>Talleres</td>
-            <td>Diplomados</td>
-            <td>Conferencias</td>
+        <tr>
+            <td><a href="index.php">Nosotros</a></td>
+            <td><a href="curso_capacitacion.php">Curso de Capacitación</a></td>
+            <td><a href="talleres.php">Talleres</a></td>
+            <td><a href="diplomados.php">Diplomados</a></td>
+            <td><a href="conferencias.php">Conferencias</a></td>
             <td>Contacto</td>
             </tr>
     </table></nav>
