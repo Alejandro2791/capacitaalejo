@@ -36,6 +36,7 @@ header h1{
 }
 #Tabla2{
     width: 100%;
+    top: 5px;
 }
 #Titulo_tabla2{
     display:block;
