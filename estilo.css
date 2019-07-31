@@ -24,3 +24,9 @@ header h1{
     left: 137px;
     top: 5px;
 }
+#Titulo_tabla1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
