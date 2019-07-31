@@ -55,3 +55,9 @@ header h1{
 hr{
     position: relative;
 }
+#Tabla3 tr:nth-child(1){
+    width: 350px;
+}
+#Tabla3 tr:nth-child(2){
+    width: 350px;
+}
