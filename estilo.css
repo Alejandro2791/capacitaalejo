@@ -18,7 +18,9 @@ header h1{
 }
 #Tabla1{
     background-color: #6EFECD;
-    left: 137px;
     width: 740px;
     height: 122px;
+    position: relative;
+    left: 137px;
+    top: 155px;
 }
