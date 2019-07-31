@@ -32,5 +32,13 @@ header h1{
     padding-top: 5px;
 }
 #Parrafo_tabla1{
-    margin-left: 35px;
+    padding-left: 35px;
+}
+#Titulo_tabla2{
+    display:block;
+    text-align:center;
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
 }

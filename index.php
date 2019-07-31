@@ -33,7 +33,8 @@
          vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
          pharetra eget.
         </td></tr>
-        </table>   
+        </table>
+        <table><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>          
     </section>
     </div>
     </body>
