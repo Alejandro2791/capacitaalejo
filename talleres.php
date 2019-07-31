@@ -17,13 +17,13 @@
             </tr>
     </table></nav>
     <header>
-        <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
+        <table><tr><td><h1>Talleres<h1></td></tr></table>
     </header>
     <div id="Contenido">
     <section>
         <table id="Tabla1" align="center">
         <tr><td id="Titulo_tabla1">
-        ¿Quienes somos?
+        ¿Qué conforma nuestros talleres?
         </td></tr>
         <tr><td id="Parrafo_tabla1">
         Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac 
@@ -35,11 +35,11 @@
         </td></tr>
         </table>
         <br><br>
-        <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
+        <table id="Tabla2"><tr><td id="Titulo_tabla2">Talleres Disponibles</td></tr></table>
         <hr size="2" color=#000000 width="850"/>
         <table id="Tabla3" align="center">
-            <tr><th>Misión</th>
-            <th>Visión</th></tr>
+            <tr><th>Mantenimiento Preventivo</th>
+            <th>Mantenimiento Correctivo</th></tr>
             <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
                      dolor ac odio mauris justo. Luctus arcu, urna praesent 
                      at id quisque ac. Arcu es massa vestibulum malesuada, 
