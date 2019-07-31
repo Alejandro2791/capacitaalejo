@@ -49,9 +49,6 @@ header h1{
     width: 700px;
     top: 105px;
 }
-hr{
-    position: relative;
-}
 #Tabla3 tr:nth-child(1){
     width: 350px;
 }
