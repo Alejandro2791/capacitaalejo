@@ -34,7 +34,25 @@
          pharetra eget.
         </td></tr>
         </table>
-        <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>          
+        <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
+        <table>
+            <tr><td>Misión</td>
+            <td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
+                dolor ac odio mauris justo. Luctus arcu, urna praesent at 
+                id quisque ac. Arcu es massa vestibulum malesuada, integer
+                 vivamus elit eu mauris eus, cum eros quis aliquam wisi. 
+                 Nulla wisi laoreet suspendisse integer vivamus elit eu 
+                 mauris hendrerit facilisi, mi mattis pariatur aliquam 
+                 pharetra eget.</td></tr>
+            <tr><td>Visión</td>
+                 <td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
+                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
+                     at id quisque ac. Arcu es massa vestibulum malesuada, 
+                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
+                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
+                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
+                      pharetra eget.</td></tr>
+        <table>        
     </section>
     </div>
     </body>
