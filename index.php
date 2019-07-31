@@ -21,7 +21,7 @@
     </header>
     <div id="Contenido">
     <section>
-        <table id="Tabla1">
+        <table id="Tabla1" align="center">
         <tr><td id="Titulo_tabla1">
         ¿Quienes somos?
         </td></tr>
@@ -33,6 +33,7 @@
          vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
          pharetra eget.
         </td></tr>
+        <br><br>
         </table>
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
         <hr size="2" color=#000000 width="700"/>
