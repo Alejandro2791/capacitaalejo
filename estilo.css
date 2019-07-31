@@ -17,12 +17,11 @@ header h1{
     color: #0000FF;
 }
 #Tabla1{
+    table-layout: fixed;
     background-color: #6EFECD;
     width: 740px;
     height: 122px;
-    position: relative;
-    left: 137px;
-    top: 5px;
+
 }
 #Titulo_tabla1{
     font-family: Arial;
