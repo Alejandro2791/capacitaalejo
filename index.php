@@ -34,7 +34,7 @@
          pharetra eget.
         </td></tr>
         </table>
-        <table><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>          
+        <table id="#Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>          
     </section>
     </div>
     </body>

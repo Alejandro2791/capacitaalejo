@@ -34,6 +34,9 @@ header h1{
 #Parrafo_tabla1{
     padding-left: 35px;
 }
+#Tabla2{
+    width: 100%;
+}
 #Titulo_tabla2{
     display:block;
     text-align:center;
