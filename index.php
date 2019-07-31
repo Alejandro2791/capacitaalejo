@@ -36,7 +36,7 @@
         </table>
         <br><br>
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
-        <hr size="2" color=#000000 width="700"/>
+        <hr size="2" color=#000000 width="850"/>
         <table id="Tabla3" align="center">
             <tr><th>Misión</th>
             <th>Visión</th></tr>
@@ -55,7 +55,7 @@
                       eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
                       pharetra eget.</td></tr>
         <table>
-        <hr size="2" color=#000000 width="700"/>      
+        <hr size="2" color=#000000 width="850"/>      
     </section>
     </div>
     </body>

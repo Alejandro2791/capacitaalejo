@@ -46,14 +46,14 @@ header h1{
 }
 #Tabla3{
     table-layout: fixed;
-    width: 800px;
+    width: 850px;
     top: 105px;
 }
 #Tabla3 tr:nth-child(1){
-    width: 400px;
+    width: 425px;
 }
 #Tabla3 tr:nth-child(2){
-    width: 400px;
+    width: 425px;
 }
 th{
     text-align: left;
