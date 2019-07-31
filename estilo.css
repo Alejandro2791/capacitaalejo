@@ -16,11 +16,6 @@ header h1{
     position: relative;
     color: #0000FF;
 }
-.Contenido section table{
-    position: relative;
-    text-align:center;
-    top:198px;
-    left: 195px;
-    width: 672px;
-    height: 71px;
+.Tabla1{
+    color: #6EFECD;
 }
