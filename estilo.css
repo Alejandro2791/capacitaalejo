@@ -63,5 +63,10 @@ th{
 }
 #Tabla4{
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #434343;
+    height: 102px;
+}
+#Parrafo_tabla4{
+    text-align: center;
+    color: #FFFFFF;
 }
