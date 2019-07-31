@@ -35,7 +35,7 @@
         </td></tr>
         </table>
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
-        <table>
+        <table id="Tabla3">
             <tr><td>Misión</td>
             <td>Visión</td></tr>
             <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
