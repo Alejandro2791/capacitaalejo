@@ -55,3 +55,6 @@ header h1{
 #Tabla3 tr:nth-child(2){
     width: 350px;
 }
+th{
+    text-align: left;
+}
