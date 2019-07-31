@@ -21,11 +21,11 @@
     </header>
     <div id="Contenido">
     <section>
-        <table id=Tabla1>
-        <tr><td id=Titulo_tabla1>
+        <table id="Tabla1">
+        <tr><td id="Titulo_tabla1">
         ¿Quienes somos?
         </td></tr>
-        <tr><td>
+        <tr><td id="Parrafo_tabla1">
         Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac 
         odio mauris justo. Luctus arcu, urna praesent at id quisque ac.
          Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris 
