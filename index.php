@@ -33,8 +33,8 @@
          vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
          pharetra eget.
         </td></tr>
-        <br><br>
         </table>
+        <br><br>
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Nuestra Filosofia</td></tr></table>
         <hr size="2" color=#000000 width="700"/>
         <table id="Tabla3" align="center">
