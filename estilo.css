@@ -87,3 +87,6 @@ a:hover{
     background-color: #6EFECD;
     padding-left: 15px;
 }
+input{
+    width: 400px;
+}
