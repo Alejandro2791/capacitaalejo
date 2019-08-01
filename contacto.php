@@ -24,7 +24,7 @@
         <br><br>
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
-            <th>Ubicación</th></tr>
+            <th id="ubicacion">Ubicación</th></tr>
             <tr><td id="contacto">
                 <form action='#' method='POST'>
                 <br>
@@ -44,12 +44,12 @@
                 <br>    <br>   
             </form>
             </td>
-                 <td><hr size="2" color=#000000/>
+                 <td id="ubicacion"><hr size="2" color=#000000/>
                  Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
             ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
              mauris eus, cum eros quis a
-             <iframe src="https://goo.gl/maps/6cC5H68XaUPYbRaw8" height="300" width="400" frameborder="0"></iframe>
+             <iframe src="https://goo.gl/maps/6cC5H68XaUPYbRaw8" height="250" width="400" frameborder="0"></iframe>
                     <hr size="2" color=#000000/>  
                  </td></tr>
         <table>
