@@ -24,7 +24,9 @@
         <br><br>
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
-            <th id="ubicacion">Ubicación</th></tr>
+            <th id="ubicacion">
+            <hr size="2" color=#000000/>
+                Ubicación</th></tr>
             <tr><td id="contacto">
                 <form action='#' method='POST'>
                 <br>
@@ -44,7 +46,7 @@
                 <br>    <br>   
             </form>
             </td>
-                 <td id="ubicacion"><hr size="2" color=#000000/>
+                 <td id="ubicacion">
                  Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
             ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
