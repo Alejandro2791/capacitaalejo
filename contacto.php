@@ -49,6 +49,7 @@
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
             ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
              mauris eus, cum eros quis a
+             <iframe src="https://goo.gl/maps/6cC5H68XaUPYbRaw8" height="300" width="400" frameborder="0"></iframe>
                     <hr size="2" color=#000000/>  
                  </td></tr>
         <table>
