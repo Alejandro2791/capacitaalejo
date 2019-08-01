@@ -13,7 +13,7 @@
             <td><a href="talleres.php">Talleres</a></td>
             <td><a href="diplomados.php">Diplomados</a></td>
             <td><a href="conferencias.php">Conferencias</a></td>
-            <td>Contacto</td>
+            <td><a href="contacto.php">Contacto</a></td>
             </tr>
     </table></nav>
     <header>
