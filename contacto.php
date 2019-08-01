@@ -17,14 +17,11 @@
             </tr>
     </table></nav>
     <header>
-        <table><tr><td><h1>Conferencias<h1></td></tr></table>
+        <table><tr><td><h1>Contactos<h1></td></tr></table>
     </header>
     <div id="Contenido">
     <section>
-        <table id="Tabla1" align="center">
         <br><br>
-        <table id="Tabla2"><tr><td id="Titulo_tabla2">Contactos</td></tr></table>
-        
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
             <th>Ubicación</th></tr>
