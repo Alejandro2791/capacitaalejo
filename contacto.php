@@ -21,7 +21,6 @@
     </header>
     <div id="Contenido">
     <section>
-        <br>
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
             <th id="ubicacion" valign="top">
