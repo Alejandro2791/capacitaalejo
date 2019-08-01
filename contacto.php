@@ -28,18 +28,19 @@
             <tr><td id="contacto">
                 <form action='#' method='POST'>
                 <label for='nombre'>Nombre y Apellido:</label>
-                <br>
+                <br>    <br> 
                 <input type='text' name='nombre' placeholder='Nombre' required>
-                <br> 
+                <br>    <br> 
                 <label for='nombre'>Email:</label>
-                <br> 
+                <br>    <br> 
                 <input type='email' name='correo' placeholder='Correo' required>
-                <br>
+                <br>    <br>
                 <label for='consulta'>Consulta:</label>
-                <br>
+                <br>    <br> 
                 <input type='text' name='consultar' placeholder='Consulta' required>
                 <br>    <br>   
-                <input type='submit' value='Enviar'> 
+                <input type='submit' value='Enviar'>
+                <br>    <br>   
             </form>
             </td>
                  <td><hr size="2" color=#000000/>
