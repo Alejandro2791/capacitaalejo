@@ -24,7 +24,7 @@
         <br><br>
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
-            <th id="ubicacion">
+            <th id="ubicacion" valign="top">
             <hr size="2" color=#000000/>
                 Ubicación</th></tr>
             <tr><td id="contacto">
@@ -46,7 +46,7 @@
                 <br>    <br>   
             </form>
             </td>
-                 <td id="ubicacion">
+                 <td id="ubicacion" valign="top">
                  Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
             ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
