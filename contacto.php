@@ -30,15 +30,15 @@
                 <br>
                 <label for='nombre'>Nombre y Apellido:</label>
                 <br>    <br> 
-                <input type='text' name='nombre' required>
+                <input id="casilla" type='text' name='nombre' required>
                 <br>    <br> 
                 <label for='nombre'>Email:</label>
                 <br>    <br> 
-                <input type='email' name='correo' required>
+                <input id="casilla" type='email' name='correo' required>
                 <br>    <br>
                 <label for='consulta'>Consulta:</label>
                 <br>    <br> 
-                <input type='text' name='consultar' required>
+                <input id="casilla1" type='text' name='consultar' required>
                 <br>    <br>   
                 <input type='submit' value='Enviar'>
                 <br>    <br>   
