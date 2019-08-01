@@ -27,6 +27,7 @@
             <th>Ubicación</th></tr>
             <tr><td id="contacto">
                 <form action='#' method='POST'>
+                <br>
                 <label for='nombre'>Nombre y Apellido:</label>
                 <br>    <br> 
                 <input type='text' name='nombre' placeholder='Nombre' required>
