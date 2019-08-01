@@ -25,16 +25,26 @@
         <table id="Tabla3" align="center">
             <tr><th id="contacto">Contactanos</th>
             <th>Ubicación</th></tr>
-            <tr><td id="contacto">Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
-                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
-                     at id quisque ac. Arcu es massa vestibulum malesuada, 
-                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
-                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
-                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-                      pharetra eget.</td>
-                 <td><hr size="2" color=#000000 width="850"/>
+            <tr><td id="contacto">
+                <form action='#' method='POST'>
+                <label for='nombre'>Nombre y Apellido:</label>
+                <br>    <br> 
+                <input type='text' name='nombre' placeholder='Nombre' required>
+                <br>    <br> 
+                <label for='nombre'>Email:</label>
+                <br>    <br> 
+                <input type='email' name='correo' placeholder='Correo' required>
+                <br>    <br>
+                <label for='consulta'>Consulta:</label>
+                <br>    <br> 
+                <input type='text' name='consultar' placeholder='Consulta' required>
+                <br>    <br>   
+                <input type='submit' value='Enviar'> 
+            </form>
+            </td>
+                 <td><hr size="2" color=#000000/>
 
-                    <hr size="2" color=#000000 width="850"/>  
+                    <hr size="2" color=#000000/>  
                  </td></tr>
         <table>
             
