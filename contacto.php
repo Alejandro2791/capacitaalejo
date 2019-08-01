@@ -45,7 +45,10 @@
             </form>
             </td>
                  <td><hr size="2" color=#000000/>
-
+                 Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
+            ac odio mauris justo. Luctus arcu, urna praesent at id quisque 
+            ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
+             mauris eus, cum eros quis a
                     <hr size="2" color=#000000/>  
                  </td></tr>
         <table>
