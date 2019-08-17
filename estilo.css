@@ -4,6 +4,7 @@ nav table{
     position: relative;
     border-spacing: 10px 5px;
     font-family: Arial;
+    font-weight: bold;
     font-size: 10;
     color: #000000;
 }
@@ -98,6 +99,9 @@ a:hover{
     padding-left: 15px;
 }
 /* Formulario de Login */
-.Formulario_Login{
-    background-color: #6EFECD;
+.Formulario_Login label{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10;
+    color: #000000;
 }
