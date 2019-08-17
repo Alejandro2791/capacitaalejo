@@ -107,3 +107,7 @@ a:hover{
     font-size: 9;
     color: #000000;
 }
+.Formulario_Login input{
+    padding-left: 5px;
+    color: #E8E6E5;
+}
