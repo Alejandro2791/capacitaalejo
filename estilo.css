@@ -119,3 +119,15 @@ a:hover{
 	margin: 0 auto;
     color: #E8E6E5;
 }
+
+.Formulario_Login button{
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+	padding: 10px;
+    background-color: #2175bc;
+	color: #fff;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
