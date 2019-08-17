@@ -101,6 +101,9 @@ a:hover{
     padding-left: 15px;
 }
 /* Formulario de Login */
+.Formulario_Login{
+    float: right;
+}
 .Formulario_Login label{
     font-family: Arial;
     font-weight: bold;
