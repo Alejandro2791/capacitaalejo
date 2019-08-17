@@ -102,7 +102,7 @@ a:hover{
 }
 /* Formulario de Login */
 .Formulario_Login{
-    float: right;
+    background-color: #6EFECD;
 }
 .Formulario_Login label{
     font-family: Arial;
