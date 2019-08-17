@@ -8,12 +8,13 @@
     <body>
         <nav><table>
         <tr>
-            <td><a href="index.php">Nosotros</a></td>
+        <td><a href="index.php">Nosotros</a></td>
             <td><a href="curso_capacitacion.php">Curso de Capacitación</a></td>
             <td><a href="talleres.php">Talleres</a></td>
             <td><a href="diplomados.php">Diplomados</a></td>
             <td><a href="conferencias.php">Conferencias</a></td>
             <td><a href="contacto.php">Contacto</a></td>
+            <td><a href="javascript:formLogin();">Iniciar Sesión</a></td>
             </tr>
     </table></nav>
     <header>
