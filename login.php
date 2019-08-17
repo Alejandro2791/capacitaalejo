@@ -4,6 +4,8 @@
     <title>Capacita Alejo</title>
      <!-- Temas-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--vincular con formulario.js-->
+	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
     <!-- Formulario Login -->
