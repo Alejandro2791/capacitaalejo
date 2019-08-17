@@ -21,9 +21,6 @@
             <td><a href="javascript:formLogin();">Iniciar Sesión</a></td>
             </tr>
     </table>
-
-    <button type="button" onclick='formLogin()'>Iniciar Sesion</button>
-
     </nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
