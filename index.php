@@ -18,6 +18,7 @@
             <td><a href="diplomados.php">Diplomados</a></td>
             <td><a href="conferencias.php">Conferencias</a></td>
             <td><a href="contacto.php">Contacto</a></td>
+            <td><a href="javascript:formLogin();">Iniciar Sesión</a></td>
             </tr>
     </table>
 
