@@ -97,3 +97,7 @@ a:hover{
 #ubicacion{
     padding-left: 15px;
 }
+/* Formulario de Login */
+.Formulario_Login{
+    background-color: #6EFECD;
+}

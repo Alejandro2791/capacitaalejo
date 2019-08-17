@@ -6,7 +6,9 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
     <body>
-        <nav><table>
+        <nav>
+    <!-- Menu Principal -->
+    <table>
             <tr>
             <td><a href="index.php">Nosotros</a></td>
             <td><a href="curso_capacitacion.php">Curso de Capacitación</a></td>
@@ -15,7 +17,15 @@
             <td><a href="conferencias.php">Conferencias</a></td>
             <td><a href="contacto.php">Contacto</a></td>
             </tr>
-    </table></nav>
+    </table>
+    <!-- Formulario Login -->
+    <div class='Formulario_Login'>
+    <form action="" method="post" name="FormEntrar">
+    <label for='usuario'>Usuario</label>
+    <input type="password" name="contra" class="form-control" placeholder="******" required>
+    </form>
+    </div>
+    </nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
     </header>
