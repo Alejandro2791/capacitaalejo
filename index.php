@@ -4,6 +4,8 @@
     <title>Capacita Alejo</title>
      <!-- Temas-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--vincular con formulario.js-->
+	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
         <nav>
@@ -18,16 +20,9 @@
             <td><a href="contacto.php">Contacto</a></td>
             </tr>
     </table>
-    <!-- Formulario Login -->
-    <div class='Formulario_Login'>
-    <form action="" method="post" name="FormEntrar">
-    <label for='usuario'>Usuario:</label>
-    <input type="text" name="user" placeholder="nombre.apellido" required>
-    <label for='contrasena'>Contraseña:</label>
-    <input type="password" name="contra" placeholder="*****" required>
-    <button type="submit">Entrar</button>
-    </form>
-    </div>
+
+    <button type="button" onclick='formLogin()'>Iniciar Sesion</button>
+
     </nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
