@@ -1,3 +1,4 @@
+/* Menu Principal */
 nav table{
     height: 29px;
     float: right;
@@ -8,6 +9,7 @@ nav table{
     font-size: 10;
     color: #000000;
 }
+/* Cabecera Principal */
 header table{
     top: 39px;
     width: 100%;
@@ -102,6 +104,6 @@ a:hover{
 .Formulario_Login label{
     font-family: Arial;
     font-weight: bold;
-    font-size: 10;
+    font-size: 9;
     color: #000000;
 }
