@@ -5,7 +5,6 @@ class Validacion
 {
     //Variables de Almacenamiento
     private $Usuario_       ="";
-    private $Nombre_Usuario ="";
     private $Contrasena_    ="";
     private $Mensaje_       ="";
 
