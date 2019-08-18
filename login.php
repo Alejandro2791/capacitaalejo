@@ -1,3 +1,6 @@
+<?php
+require_once 'Validacion.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
