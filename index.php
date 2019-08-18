@@ -13,24 +13,6 @@ require_once 'Validacion.php';
     <body>
         <nav>
 
-    <!-- Formulario Login -->
-    <form action="" method="post" name="FormLogin">
-        <!-- Mensaje -->
-        <?php
-        if(!empty($_POST['user']) && !empty($_POST['contra'])){
-        $iniciar=new Validacion($_POST['user'],$_POST['contra']);
-        $iniciar->Ingresar();
-        echo $iniciar->MostrarMsg();
-        }
-        ?>
-    <input type="text" name='user' placeholder="Usuario" required>
-    <br><br>
-    <input type="password" name='contra' placeholder="*****" required>
-    <br><br>
-    <button type="submit" >Entrar</button>
-
-    </form>
-
     <!-- Menu Principal -->
     <table>
             <tr>
@@ -40,7 +22,7 @@ require_once 'Validacion.php';
             <td><a href="diplomados.php">Diplomados</a></td>
             <td><a href="conferencias.php">Conferencias</a></td>
             <td><a href="contacto.php">Contacto</a></td>
-            <td><a href="login.php">Iniciar Sesión</a></td>
+            <td><a href="javascript:formLogin();">Iniciar Sesión</a></td>
             </tr>
     </table>
     </nav>
