@@ -63,7 +63,7 @@ class Validacion
                 $Activo = $datos[2];
             }
             //Validar existencia de Usuario
-            if(pg_num_rows($respuesta)>0){
+            if(pg_num_rows($respuesta)==0){
                 //Validar Usuario activo
                 if($Activo='1'){
                     $retorno = true;
