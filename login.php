@@ -15,10 +15,7 @@ require_once 'Validacion.php';
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
     </header>
-
-    <!-- Formulario Login -->
-    <div class="Formulario_Login">
-    <form action="" method="post" name="FormLogin">
+    
         <!-- Mensaje -->
         <?php
         if(!empty($_POST['user']) && !empty($_POST['contra'])){
@@ -27,6 +24,9 @@ require_once 'Validacion.php';
         echo $iniciar->MostrarMsg();
         }
         ?>
+    <!-- Formulario Login -->
+    <div class="Formulario_Login">
+    <form action="" method="post" name="FormLogin">
     <input type="text" name='user' placeholder="Usuario" required>
     <br><br>
     <input type="password" name='contra' placeholder="*****" required>
