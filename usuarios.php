@@ -79,7 +79,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
                 
                 $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre1, usuario,
                             activo
-                            FROM usuario ORDER BY 1";
+                            FROM usuarios ORDER BY 1";
 
         $respuesta1 = pg_query($db,$query1);
         while($datos= pg_fetch_row($respuesta1)){
