@@ -17,6 +17,7 @@ require_once 'Validacion.php';
     </header>
 
     <!-- Formulario Login -->
+    <div class="Formulario_Login">
     <form action="" method="post" name="FormLogin">
         <!-- Mensaje -->
         <?php
