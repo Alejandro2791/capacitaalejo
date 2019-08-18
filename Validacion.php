@@ -59,9 +59,17 @@ class Validacion
             $consulta ="SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."';";
             $respuesta = pg_query($db,$consulta);
 
+            while($datos = pg_fetch_row($respuesta)){
+                $Activo = $datos[2];
+            }
             //Validar existencia de Usuario
             if(pg_num_rows($respuesta)>0){
+                //Validar Usuario activo
+                if($Activo='1'){
                     $retorno = true;
+                }else{
+                    $this->Mensaje='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
+                }
             }else{
                 $this->Mensaje='<div><strong>Error!!!</strong>Usuario incorrecto</div>';
             }
