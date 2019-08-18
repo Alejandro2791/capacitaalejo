@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include "config.php";
 session_start();
 
 class Validacion
@@ -43,11 +43,7 @@ class Validacion
     //Funcion de Validacion Usuario
     public function ValidarUsuario(){
         $retorno = false;
-        $Database = getenv('database_database');
-        $Host     = getenv('database_host');
-        $Password = getenv('database_password');
-        $Port     = getenv('database_port');
-        $User     = getenv('database_user');
+
         $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
 
         //Validar Conexion Base de Datos
