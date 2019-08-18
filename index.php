@@ -22,9 +22,9 @@ require_once 'Validacion.php';
     ?>
     <!-- Formulario Login -->
     <form action="" method="post" name="FormLogin">
-    <input type="text" name="user" placeholder="Usuario" required>
+    <input type="text" name='user' placeholder="Usuario" required>
     <br><br>
-    <input type="password" name="contra" placeholder="*****" required>
+    <input type="password" name='contra' placeholder="*****" required>
     <br><br>
     <button type="submit" >Entrar</button>
 
