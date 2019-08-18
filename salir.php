@@ -10,6 +10,6 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 			}
 		   $uri .= $_SERVER['HTTP_HOST'];
 
-    header("location: ".$uri);		   
+		   echo "<script languaje='javascript' type='text/javascript'>window.close();</script>";	   
 
  ?>
