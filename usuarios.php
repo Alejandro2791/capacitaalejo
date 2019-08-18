@@ -66,25 +66,30 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         </td></tr>
         </table>
         <br><br>
-        <table id="Tabla2"><tr><td id="Titulo_tabla2">Cursos Disponibles</td></tr></table>
+        <table id="Tabla2"><tr><td id="Titulo_tabla2">Consulta de Usuarios</td></tr></table>
         <hr size="2" color=#000000 width="850"/>
+        <!-- Consulta de Usuarios -->
+        <?php 
+                $Database = getenv('database_database');
+                $Host     = getenv('database_host');
+                $Password = getenv('database_password');
+                $Port     = getenv('database_port');
+                $User     = getenv('database_user');
+                $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
+                
+                $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre, usuario,
+                            activo
+                            FROM usuario ORDER BY 1";
+
+        $respuesta1 = pg_query($db,$query1);
+        while($datos= pg_fetch_row($respuesta1)){
+            $consulta .= "<tr><td title='".$datos[1]."'>".$datos[1]."</td>    <td title='".$datos[2]."'>".$datos[2]."</td></tr>";
+            }
+        ?>
         <table id="Tabla3" align="center">
-            <tr><th>Curso de Implementación</th>
-            <th>Curso de Reconstrucción</th></tr>
-            <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
-                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
-                     at id quisque ac. Arcu es massa vestibulum malesuada, 
-                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
-                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
-                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-                      pharetra eget.</td>
-                 <td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
-                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
-                     at id quisque ac. Arcu es massa vestibulum malesuada, 
-                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
-                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
-                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-                      pharetra eget.</td></tr>
+            <tr><th>Nombre</th>
+            <th>Usuario</th></tr>
+            <?php echo $consulta; ?>
         <table>
         <hr size="2" color=#000000 width="850"/>      
     </section>
