@@ -52,15 +52,15 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         <tr><td id="Parrafo_tabla1">
             <form action="" method="post">
             <input type="text" name='nombre' placeholder="Nombre" required>
-            <br><br>
+            &nbsp; &nbsp;
             <input type="text" name='apellido1' placeholder="Apellido Paterno" required>
-            <br><br>
+            &nbsp; &nbsp;
             <input type="text" name='apellido2' placeholder="Apellido Materno" required>
-            <br><br>
+            &nbsp; &nbsp;
             <input type="text" name='usuario' placeholder="Usuario" required>
             <br><br>
             <input type="password" name='contra' placeholder="*****" required>
-            <br><br>
+            &nbsp; &nbsp;
             <button type="submit" >Enviar</button>
             </form>
         </td></tr>
