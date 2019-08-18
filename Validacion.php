@@ -17,10 +17,10 @@ class Validacion
     //Funcion de Ingresar
     public function Ingresar(){
         if($this->ValidarUsuario()==false){
-            $this->Mensaje_=$this->Mensaje_;	
+            $this->Mensaje_=$this->Mensaje_;
            }else{
                if($this->ValidarPass()==false){
-                $this->Mensaje_=$this->Mensaje_;	
+                $this->Mensaje_=$this->Mensaje_;
                }else{
                     
                    if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
@@ -73,6 +73,7 @@ class Validacion
                 $this->Mensaje_=  '<div><strong>Error!!!</strong>El Usuario incorrecto</div>';
             }
         }
+        return $retorno;
     }
 
     //Funcion de Validacion Contrasena
@@ -111,6 +112,7 @@ class Validacion
             $this->Mensaje_='<div><strong>Error!!!</strong>Contraseña incorrecto</div>';
             $retorno = false;
         }
+        return $retorno;
     }
 
     private function IPuser() {
