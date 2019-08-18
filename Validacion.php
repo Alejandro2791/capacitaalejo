@@ -64,7 +64,7 @@ class Validacion
             //Validar existencia de Usuario
             if(pg_num_rows($respuesta)>0){
                 //Validar Usuario activo
-                if($Activo='1'){
+                if($Activo ==='1'){
                     $retorno = true;
                 }else{
                     $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
