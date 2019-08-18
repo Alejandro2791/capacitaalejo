@@ -47,7 +47,7 @@ class Validacion
         $Host     = getenv('database_host');
         $Password = getenv('database_password');
         $Port     = getenv('database_port');
-        $User     = getenv('database_users');
+        $User     = getenv('database_user');
 
         $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
 
