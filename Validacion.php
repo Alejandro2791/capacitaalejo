@@ -59,6 +59,8 @@ class Validacion
             $consulta = "SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."';";
             $respuesta = pg_query($db,$consulta);
 
+            $valor = pg_fetch_array($respuesta);
+
             while($datos = pg_fetch_row($respuesta)){
                 $Activo = $datos[2];
             }
@@ -71,7 +73,7 @@ class Validacion
                     $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
                 }
             }else{
-                $this->Mensaje_=  $respuesta;
+                $this->Mensaje_=  $valor;
             }
         }
     }
