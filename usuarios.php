@@ -56,9 +56,9 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             <input type="text" name='apellido1' placeholder="Apellido Paterno" required>
             &nbsp; &nbsp;
             <input type="text" name='apellido2' placeholder="Apellido Materno" required>
-            &nbsp; &nbsp;
-            <input type="text" name='usuario' placeholder="Usuario" required>
             <br><br>
+            <input type="text" name='usuario' placeholder="Usuario" required>
+            &nbsp; &nbsp;
             <input type="password" name='contra' placeholder="*****" required>
             &nbsp; &nbsp;
             <button type="submit" >Enviar</button>
