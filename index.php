@@ -22,6 +22,25 @@
             <td><a href="login.php">Iniciar Sesión</a></td>
             </tr>
     </table>
+        <!-- Formulario Login -->
+        <div class="Formulario_Login">
+    <form action="" method="post" name="FormLogin">
+        <!-- Mensaje -->
+        <?php
+        if(!empty($_POST['user']) && !empty($_POST['contra'])){
+        $iniciar=new Validacion($_POST['user'],$_POST['contra']);
+        $iniciar->Ingresar();
+        echo $iniciar->MostrarMsg();
+        }
+        ?>
+    <input type="text" name='user' placeholder="Usuario" required>
+    <br><br>
+    <input type="password" name='contra' placeholder="*****" required>
+    <br><br>
+    <button type="submit" >Entrar</button>
+
+    </form>
+    </div>
     </nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
