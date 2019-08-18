@@ -71,7 +71,7 @@ class Validacion
                     $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
                 }
             }else{
-                $this->Mensaje_='<div><strong>Error!!!</strong>Usuario incorrecto</div>';
+                $this->Mensaje_= pg_last_error();
             }
         }
     }
