@@ -32,6 +32,7 @@ require_once 'Validacion.php';
         $iniciar->Ingresar();
         echo $iniciar->MostrarMsg();
         echo $_POST['user'];
+        echo $_POST['contra'];
         }
         ?>
     </form>
