@@ -56,7 +56,7 @@ class Validacion
             $this->Mensaje_='<div><strong>Error!!!</strong>Conexion erronea al Servidor</div>';
         }else{
             //Consulta SQL
-            $consulta = "SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='alejandro.osorio';";
+            $consulta = "SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."';";
             $respuesta = pg_query($db,$consulta);
 
             $valor = pg_fetch_array($respuesta);
@@ -73,7 +73,7 @@ class Validacion
                     $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
                 }
             }else{
-                $this->Mensaje_=  $valor;
+                $this->Mensaje_=  '<div><strong>Error!!!</strong>El Usuario incorrecto</div>';
             }
         }
     }
@@ -93,7 +93,7 @@ class Validacion
 
         //Consulta SQL
         $consulta ="SELECT idusuario, usuario, contrasena, activo FROM usuarios
-                    WHERE contrasena='$contra' AND usuario='".$this->Usuario_."';";
+                    WHERE contrasena='".$this->Contrasena_."' AND usuario='".$this->Usuario_."';";
         $respuesta = pg_query($db, $consulta);
 
         if(pg_num_rows($resultado)>0){
