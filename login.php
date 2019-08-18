@@ -9,6 +9,7 @@ require_once 'Validacion.php';
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <!--vincular con formulario.js-->
 	<script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="validar.js"></script>
 </head>
     <body>
     <!-- Titulo -->
