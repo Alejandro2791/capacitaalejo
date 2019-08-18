@@ -56,7 +56,7 @@ class Validacion
             $this->Mensaje_='<div><strong>Error!!!</strong>Conexion erronea al Servidor</div>';
         }else{
             //Consulta SQL
-            $consulta ="SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='alejandro.osorio';";
+            $consulta = "SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."';";
             $respuesta = pg_query($db,$consulta);
 
             while($datos = pg_fetch_row($respuesta)){
@@ -91,7 +91,7 @@ class Validacion
 
         //Consulta SQL
         $consulta ="SELECT idusuario, usuario, contrasena, activo FROM usuarios
-                    WHERE contrasena='12345678' AND usuario='alejandro.osorio'";
+                    WHERE contrasena='$contra' AND usuario='".$this->Usuario_."';";
         $respuesta = pg_query($db, $consulta);
 
         if(pg_num_rows($resultado)>0){
