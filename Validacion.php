@@ -10,8 +10,8 @@ class Validacion
 
     //Funcion de Validacion
     function __construct($Usuario,$Contrasena){
-        $this->$Usuario_=$Usuario;
-        $this->$Contrasena_=$Contrasena;
+        $this->Usuario_=$Usuario;
+        $this->Contrasena_=$Contrasena;
     }
 
     //Funcion de Ingresar
