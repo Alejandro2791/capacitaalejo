@@ -18,6 +18,13 @@ require_once 'Validacion.php';
 
     <!-- Formulario Login -->
     <div class='Formulario_Login'>
+    <form action="" method="post" name="FormLogin">
+    <input type="text" name="user" placeholder="Usuario" required>
+    <br><br>
+    <input type="password" name="contra" placeholder="*****" required>
+    <br><br>
+    <button type="submit" >Entrar</button>
+    <!-- Mensaje -->
     <?php
     if(!empty($_POST['user']) && !empty($_POST['contra'])){
     $iniciar=new Validacion($_POST['user'],$_POST['contra']);
@@ -25,12 +32,6 @@ require_once 'Validacion.php';
     echo $iniciar->MostrarMsg();
     }
     ?>
-    <form action="" method="post" name="FormLogin">
-    <input type="text" name="user" placeholder="Usuario" required>
-    <br><br>
-    <input type="password" name="contra" placeholder="*****" required>
-    <br><br>
-    <button type="submit" >Entrar</button>
     </form>
     </div>
     </body>

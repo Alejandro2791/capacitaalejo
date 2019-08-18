@@ -57,7 +57,7 @@ class Validacion
         }else{
             //Consulta SQL
             $consulta ="SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."'";
-            $respuesta = pg_query($db, $consulta);
+            $respuesta = pg_query($db,$consulta);
 
             while($datos = pg_fetch_row($respuesta)){
                 $Activo = $datos[2];
