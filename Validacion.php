@@ -69,7 +69,7 @@ class Validacion
                     $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
                 }
             }else{
-                $this->Mensaje_=  "<div><strong>Error!!!</strong>El Usuario incorrecto'".$this->Usuario."'</div>";
+                $this->Mensaje_=  '<div><strong>Error!!!</strong>El Usuario incorrecto</div>';
             }
         }
         return $retorno;
