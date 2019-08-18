@@ -65,8 +65,33 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             </form>
         </td></tr>
         </table>
+        <br><br>
+        <table id="Tabla2"><tr><td id="Titulo_tabla2">Cursos Disponibles</td></tr></table>
+        <hr size="2" color=#000000 width="850"/>
+        <table id="Tabla3" align="center">
+            <tr><th>Curso de Implementación</th>
+            <th>Curso de Reconstrucción</th></tr>
+            <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
+                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
+                     at id quisque ac. Arcu es massa vestibulum malesuada, 
+                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
+                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
+                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
+                      pharetra eget.</td>
+                 <td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
+                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
+                     at id quisque ac. Arcu es massa vestibulum malesuada, 
+                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
+                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
+                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
+                      pharetra eget.</td></tr>
+        <table>
+        <hr size="2" color=#000000 width="850"/>      
+    </section>
     </section>
     </div>
+
+
     <br><br><br><br><br><br><br><br>
     <footer>
     <table id="Tabla4">
