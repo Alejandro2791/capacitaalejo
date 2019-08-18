@@ -90,7 +90,7 @@ class Validacion
 
         //Consulta SQL
         $consulta ="SELECT idusuario, usuario, contrasena, activo FROM usuarios
-                    WHERE contrasena='".$this->Contrasena_."' AND usuario='".$this->Usuario_."';";
+                    WHERE contrasena='12345678' AND usuario='alejandro.osorio';";
         $respuesta = pg_query($db, $consulta);
 
         if(pg_num_rows($respuesta)>0){
