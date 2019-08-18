@@ -18,10 +18,10 @@ class Validacion
     //Funcion de Ingresar
     public function Ingresar(){
         if($this->ValidarUsuario()==false){
-            $this->Mensaje=$this->Mensaje;	
+            $this->Mensaje_=$this->Mensaje_;	
            }else{
                if($this->ValidarPass()==false){
-                $this->Mensaje=$this->Mensaje;	
+                $this->Mensaje_=$this->Mensaje_;	
                }else{
                     
                    if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
@@ -53,7 +53,7 @@ class Validacion
 
         //Validar Conexion Base de Datos
         if(!$db){
-            $this->Mensaje='<div><strong>Error!!!</strong>Conexion erronea al Servidor</div>';
+            $this->Mensaje_='<div><strong>Error!!!</strong>Conexion erronea al Servidor</div>';
         }else{
             //Consulta SQL
             $consulta ="SELECT idusuario, usuario, activo FROM usuarios WHERE usuario='".$this->Usuario_."';";
@@ -68,10 +68,10 @@ class Validacion
                 if($Activo='1'){
                     $retorno = true;
                 }else{
-                    $this->Mensaje='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
+                    $this->Mensaje_='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
                 }
             }else{
-                $this->Mensaje='<div><strong>Error!!!</strong>Usuario incorrecto</div>';
+                $this->Mensaje_='<div><strong>Error!!!</strong>Usuario incorrecto</div>';
             }
         }
     }
@@ -110,7 +110,7 @@ class Validacion
                 "Acceso"    =>$acceso);
             $retorno = true;
         }else{
-            $this->Mensaje='<div><strong>Error!!!</strong>Contraseña incorrecto</div>';
+            $this->Mensaje_='<div><strong>Error!!!</strong>Contraseña incorrecto</div>';
             $retorno = false;
         }
     }
@@ -127,7 +127,7 @@ class Validacion
     }
     
     public function MostrarMsg(){
-        return $this->Mensaje;
+        return $this->Mensaje_;
     }
 }
 ?>
