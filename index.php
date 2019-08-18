@@ -21,8 +21,8 @@ require_once 'Validacion.php';
         $iniciar=new Validacion($_POST['user'],$_POST['contra']);
         $iniciar->Ingresar();
         echo $iniciar->MostrarMsg();
-    }
-    ?>
+        }
+        ?>
     <input type="text" name='user' placeholder="Usuario" required>
     <br><br>
     <input type="password" name='contra' placeholder="*****" required>
