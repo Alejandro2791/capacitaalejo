@@ -47,7 +47,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
     <section>
         <table id="Tabla1" align="center">
         <tr><td id="Titulo_tabla1">
-        Alta de Usuario
+        Alta de Clases
         </td></tr>
         <tr><td id="Parrafo_tabla1">
             <form action="" method="post">
@@ -66,7 +66,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         </td></tr>
         </table>
         <br><br>
-        <table id="Tabla2"><tr><td id="Titulo_tabla2">Consulta de Usuarios</td></tr></table>
+        <table id="Tabla2"><tr><td id="Titulo_tabla2">Consulta de Clases</td></tr></table>
         <hr size="2" color=#000000 width="850"/>
         <!-- Consulta de Usuarios -->
         <?php 

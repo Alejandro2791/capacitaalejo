@@ -35,7 +35,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
     <table>
             <tr>
             <td><a href="usuarios.php">Usuarios</a></td>
-            <td><a href="#">Clases</a></td>
+            <td><a href="clases.php">Clases</a></td>
             <td><a href="salir.php">Salir</a></td>
             </tr>
     </table>
