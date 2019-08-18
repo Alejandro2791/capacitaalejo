@@ -96,7 +96,7 @@ class Validacion
                     WHERE contrasena='".$this->Contrasena_."' AND usuario='".$this->Usuario_."';";
         $respuesta = pg_query($db, $consulta);
 
-        if(pg_num_rows($resultado)>0){
+        if(pg_num_rows($respuesta)>0){
             //Array
             $datos = pg_fetch_array($respuesta);
 
