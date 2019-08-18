@@ -9,7 +9,7 @@ class Validacion
     private $Mensaje_       ="";
 
     //Funcion de Validacion
-    function __construct($Usuario, $Contrasena){
+    function __construct($Usuario,$Contrasena){
         $this->$Usuario_=$Usuario;
         $this->$Contrasena_=$Contrasena;
     }
