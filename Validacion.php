@@ -68,7 +68,7 @@ class Validacion
                 if($Activo='1'){
                     $retorno = true;
                 }else{
-                    $this->Mensaje='<div><strong>Error!!!</strong>El Usuario se encuentra inactivo</div>';
+                    $this->Mensaje=$this->Usuario_;
                 }
             }else{
                 $this->Mensaje='<div><strong>Error!!!</strong>Usuario incorrecto</div>';
