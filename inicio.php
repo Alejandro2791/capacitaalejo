@@ -34,12 +34,8 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
     <!-- Menu Principal -->
     <table>
             <tr>
-            <td><a href="index.php">Nosotros</a></td>
-            <td><a href="curso_capacitacion.php">Curso de Capacitación</a></td>
-            <td><a href="talleres.php">Talleres</a></td>
-            <td><a href="diplomados.php">Diplomados</a></td>
-            <td><a href="conferencias.php">Conferencias</a></td>
-            <td><a href="contacto.php">Contacto</a></td>
+            <td><a href="#">Usuarios</a></td>
+            <td><a href="#">Clases</a></td>
             <td><a href="salir.php">Salir</a></td>
             </tr>
     </table>
