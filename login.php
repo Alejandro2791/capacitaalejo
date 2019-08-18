@@ -28,7 +28,7 @@ require_once 'Validacion.php';
         <!-- Mensaje -->
         <?php
         if(!empty($_POST['user']) && !empty($_POST['contra'])){
-        $iniciar=new Validacion($_POST['user'],$_POST['contra']);
+        $iniciar=new Validacion($_POST['user'], $_POST['contra']);
         $iniciar->Ingresar();
         echo $iniciar->MostrarMsg();
         }
