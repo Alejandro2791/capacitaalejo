@@ -77,7 +77,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
                 $User     = getenv('database_user');
                 $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
                 
-                $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre, usuario,
+                $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre1, usuario,
                             activo
                             FROM usuario ORDER BY 1";
 
