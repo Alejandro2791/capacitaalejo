@@ -25,7 +25,7 @@ if(preg_match("/[A-Zaz]/", $Nombre)==true){
                 $User     = getenv('database_user');
                 $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
       
-            $sql = "INSERT INTO usuarios (nombre, apellido1, apellido2, usuario, contra, activo) 
+            $sql = "INSERT INTO usuarios (nombre, apellido1, apellido2, usuario, contrasena, activo) 
                     VALUES ('$Nombre', '$Apellido', '$Apellido1', '$Usuario', '$Contrasena', '1')";
           if(pg_query($db, $sql)){
             echo "<script>
