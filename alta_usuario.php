@@ -16,7 +16,7 @@ if(preg_match("/[A-Zaz]/", $Nombre)==true){
         if(preg_match("/[A-Zaz]/", $Apellido1)==true){
     
               //Validacion de Correo
-          if(preg_match("/[a-zAZ0-9\_\-]+\@[a-zA-Z0-9]+\.[a-zA-Z0-9]/", $Correo )==true){
+          if(preg_match("/[a-zAZ0-9]+\.[a-zA-Z0-9]/", $Correo )==true){
     
                 $Database = getenv('database_database');
                 $Host     = getenv('database_host');
