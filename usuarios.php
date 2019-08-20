@@ -50,7 +50,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         Alta de Usuario
         </td></tr>
         <tr><td id="Parrafo_tabla1">
-            <form action="" method="post">
+            <form action="alta_usuario.php" method="post">
             <input type="text" name='nombre' placeholder="Nombre" required>
             &nbsp; &nbsp;
             <input type="text" name='apellido1' placeholder="Apellido Paterno" required>
