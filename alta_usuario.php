@@ -18,7 +18,12 @@ if(preg_match("/[A-Zaz]/", $Nombre)==true){
               //Validacion de Correo
           if(preg_match("/[a-zAZ0-9]+\.[a-zA-Z0-9]/", $Usuario )==true){
     
-            $db = pg_connect("host=$host_ dbname=$Database port=$Port user=$User password=$Password") or die ("Error de Conexion".pg_last_error());
+                $Database = getenv('database_database');
+                $Host     = getenv('database_host');
+                $Password = getenv('database_password');
+                $Port     = getenv('database_port');
+                $User     = getenv('database_user');
+                $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
       
             $sql = "INSERT INTO usuarios (nombre, apellido1, apellido2, usuario, contra, activo) 
                     VALUES ('$Nombre', '$Apellido', '$Apellido1', '$Usuario', '$Contrasena', '1')";
