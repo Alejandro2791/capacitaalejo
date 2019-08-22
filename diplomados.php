@@ -39,6 +39,14 @@
                 while($datos1= pg_fetch_row($respuesta1)){
                     $descripcion .= $datos1[1];
                 }
+
+                $query2= "SELECT nombre, descripcion FROM clases WHERE idtipo=3 ORDER BY 1";
+            
+                $respuesta2 = pg_query($db, $query2);
+    
+                while($datos2= pg_fetch_row($respuesta2)){
+                    $descripcion2 .= "<tr><td title='".$datos[1]."'>".$datos[1]."</td>    <td title='".$datos[2]."'>".$datos[2]."</td></tr>";
+                }
     ?>
     <div id="Contenido">
     <section>
@@ -54,22 +62,9 @@
         <table id="Tabla2"><tr><td id="Titulo_tabla2">Diplomados Disponibles</td></tr></table>
         <hr size="2" color=#000000 width="850"/>
         <table id="Tabla3" align="center">
-            <tr><th>Big Data</th>
-            <th>Seguridad Cibernetica</th></tr>
-            <tr><td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
-                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
-                     at id quisque ac. Arcu es massa vestibulum malesuada, 
-                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
-                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
-                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-                      pharetra eget.</td>
-                 <td>Lorem ipsum dolor sit amet, sapien etiam, nunc amet 
-                     dolor ac odio mauris justo. Luctus arcu, urna praesent 
-                     at id quisque ac. Arcu es massa vestibulum malesuada, 
-                     integer vivamus elit eu mauris eus, cum eros quis aliquam 
-                     wisi. Nulla wisi laoreet suspendisse integer vivamus elit
-                      eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-                      pharetra eget.</td></tr>
+        <tr><th>Nombre</th>
+            <th>Descripcion</th></tr>
+            <?php echo $descripcion2; ?>
         <table>
         <hr size="2" color=#000000 width="850"/>      
     </section>
