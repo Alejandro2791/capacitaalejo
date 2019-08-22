@@ -87,8 +87,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         <!-- Consulta de Usuarios -->
         <?php 
   
-                $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre1, usuario,
-                            activo
+                $query1 = "SELECT idclases, nombre, descripcion
                             FROM usuarios ORDER BY 1";
 
         $respuesta1 = pg_query($db,$query1);
@@ -97,8 +96,8 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             }
         ?>
         <table id="Tabla3" align="center">
-            <tr><th>Nombre</th>
-            <th>Usuario</th></tr>
+            <tr><th>Clase</th>
+            <th>Descripcion</th></tr>
             <?php echo $consulta; ?>
         <table>
         <hr size="2" color=#000000 width="850"/>      
