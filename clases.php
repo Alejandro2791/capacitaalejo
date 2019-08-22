@@ -70,6 +70,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         </td></tr>
         <tr><td id="Parrafo_tabla1">
             <form action="" method="post">
+            <input type='hidden' name='IdUsr' value='<?php echo $iduser ?>'>
             <input type="text" name='clase' placeholder="Clase" required>
             &nbsp; &nbsp;
             <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit; ?></select>
