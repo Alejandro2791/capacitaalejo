@@ -88,7 +88,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         <?php 
   
                 $query1 = "SELECT idclases, nombre, descripcion
-                            FROM usuarios ORDER BY 1";
+                            FROM clases ORDER BY 1";
 
         $respuesta1 = pg_query($db,$query1);
         while($datos= pg_fetch_row($respuesta1)){
