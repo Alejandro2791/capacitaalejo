@@ -72,7 +72,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             <form action="" method="post">
             <input type="text" name='clase' placeholder="Clase" required>
             &nbsp; &nbsp;
-            <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit ?></select>
+            <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit; ?></select>
             <br><br>
             <input type="text" name='descripcion' placeholder="Descripcion" required>
             &nbsp; &nbsp;
