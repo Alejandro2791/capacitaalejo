@@ -69,7 +69,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         Alta de Clases
         </td></tr>
         <tr><td id="Parrafo_tabla1">
-            <form action="" method="post">
+            <form action="alta_clases.php" method="post">
             <input type='hidden' name='IdUsr' value='<?php echo $iduser ?>'>
             <input type="text" name='clase' placeholder="Clase" required>
             &nbsp; &nbsp;
