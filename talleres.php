@@ -8,6 +8,15 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
+    <!-- Base de Datos -->
+    <?php 
+                    $Database = getenv('database_database');
+                    $Host     = getenv('database_host');
+                    $Password = getenv('database_password');
+                    $Port     = getenv('database_port');
+                    $User     = getenv('database_user');
+                    $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
+    ?>
         <nav><table>
         <tr>
         <td><a href="index.php">Nosotros</a></td>
@@ -22,6 +31,15 @@
     <header>
         <table><tr><td><h1>Talleres<h1></td></tr></table>
     </header>
+    <?php 
+                $query1= "SELECT idtipo, descripcion FROM tipo_clases WHERE idtipo=4 ORDER BY 1";
+            
+                $respuesta1 = pg_query($db, $query1);
+    
+                while($datos1= pg_fetch_row($respuesta1)){
+                    $descripcion .= $datos1[1];
+                }
+    ?>
     <div id="Contenido">
     <section>
         <table id="Tabla1" align="center">
@@ -29,12 +47,7 @@
         ¿Qué conforma nuestros talleres?
         </td></tr>
         <tr><td id="Parrafo_tabla1">
-        Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac 
-        odio mauris justo. Luctus arcu, urna praesent at id quisque ac.
-         Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris 
-         eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse integer 
-         vivamus elit eu mauris hendrerit facilisi, mi mattis pariatur aliquam 
-         pharetra eget.
+        <?php echo $descripcion; ?>
         </td></tr>
         </table>
         <br><br>
