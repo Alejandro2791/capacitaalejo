@@ -45,7 +45,7 @@
                 $respuesta2 = pg_query($db, $query2);
     
                 while($datos2= pg_fetch_row($respuesta2)){
-                    $descripcion2 .= "<tr><td title='".$datos2[0]."'>".$datos2[0]."</td>    <td title='".$datos2[1]."'>".$datos2[1]."</td></tr>";
+                    $descripcion2 .= "<tr><td title='".$datos2[0]."'>".$datos2[0]."</td>    <td title='".$datos2[1]."'>".$datos2[1]."</td></tr> <hr size='2' color=#000000 width='850'/>";
                 }
     ?>
     <div id="Contenido">
