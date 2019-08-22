@@ -58,7 +58,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             
             $respuesta2 = pg_query($db, $respuesta2);
 
-            while($datos1= pg_fetch_row($respuesta1)){
+            while($datos1= pg_fetch_row($respuesta2)){
                 $combobit .= "<option value =' " .$datos1[0]."'>".$datos1[1]."</option>";
             }
     ?>
@@ -74,8 +74,8 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             &nbsp; &nbsp;
             <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit; ?></select>
             <br><br>
-            <textarea name="descripcion" rows="10" cols="50">Descripcion</textarea>
-            &nbsp; &nbsp;
+            <textarea name="descripcion" rows="10" cols="50" placeholder="Clase" required></textarea>
+            <br><br>
             <button type="submit" >Enviar</button>
             </form>
         </td></tr>
