@@ -83,7 +83,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 
         $respuesta1 = pg_query($db,$query1);
         while($datos= pg_fetch_row($respuesta1)){
-            $consulta .= "<tr><td title='".$datos[1]."'>".$datos[1]."</td>    <td title='".$datos[2]."'>".$datos[2]."</td> <hr size='2' color=#000000 width='850'/></tr>";
+            $consulta .= "<tr><td title='".$datos[1]."'>".$datos[1]."</td>    <td title='".$datos[2]."'>".$datos[2]."</td></tr>";
             }
         ?>
         <table id="Tabla3" align="center">
