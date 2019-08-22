@@ -102,7 +102,6 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         <table>
         <hr size="2" color=#000000 width="850"/>      
     </section>
-    </section>
     </div>
 
 
