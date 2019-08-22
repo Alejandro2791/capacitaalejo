@@ -30,6 +30,15 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
+    <!-- Base de Datos -->
+    <?php 
+                    $Database = getenv('database_database');
+                    $Host     = getenv('database_host');
+                    $Password = getenv('database_password');
+                    $Port     = getenv('database_port');
+                    $User     = getenv('database_user');
+                    $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
+    ?>
         <nav>
     <!-- Menu Principal -->
     <table>
@@ -43,6 +52,16 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
     </header>
+    <?php
+
+            $query2= "SELECT idtipo, nombre FROM tipo_clases ORDER BY 1";
+            
+            $respuesta2 = pg_query($db, $respuesta2);
+
+            while($datos1= pg_fetch_row($respuesta1)){
+                $combobit .= "<option value =' " .$datos1[0]."'>".$datos1[1]."</option>";
+            }
+    ?>
     <div id="Contenido">
     <section>
         <table id="Tabla1" align="center">
@@ -51,15 +70,11 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         </td></tr>
         <tr><td id="Parrafo_tabla1">
             <form action="" method="post">
-            <input type="text" name='nombre' placeholder="Nombre" required>
+            <input type="text" name='clase' placeholder="Clase" required>
             &nbsp; &nbsp;
-            <input type="text" name='apellido1' placeholder="Apellido Paterno" required>
-            &nbsp; &nbsp;
-            <input type="text" name='apellido2' placeholder="Apellido Materno" required>
+            <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit ?></select>
             <br><br>
-            <input type="text" name='usuario' placeholder="Usuario" required>
-            &nbsp; &nbsp;
-            <input type="password" name='contra' placeholder="*****" required>
+            <input type="text" name='descripcion' placeholder="Descripcion" required>
             &nbsp; &nbsp;
             <button type="submit" >Enviar</button>
             </form>
@@ -70,13 +85,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
         <hr size="2" color=#000000 width="850"/>
         <!-- Consulta de Usuarios -->
         <?php 
-                $Database = getenv('database_database');
-                $Host     = getenv('database_host');
-                $Password = getenv('database_password');
-                $Port     = getenv('database_port');
-                $User     = getenv('database_user');
-                $db = pg_connect("host=$Host dbname=$Database port=$Port user=$User password=$Password");
-                
+  
                 $query1 = "SELECT idusuario, (nombre||' '||apellido1||' '||apellido2) As nombre1, usuario,
                             activo
                             FROM usuarios ORDER BY 1";
