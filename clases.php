@@ -74,7 +74,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
             &nbsp; &nbsp;
             <select id='Combo' name='tipo'> <option value=0>[Seleccionar]</option><?php echo $combobit; ?></select>
             <br><br>
-            <input type="text" name='descripcion' placeholder="Descripcion" required>
+            <textarea name="descripcion" rows="10" cols="50">Descripcion</textarea>
             &nbsp; &nbsp;
             <button type="submit" >Enviar</button>
             </form>
