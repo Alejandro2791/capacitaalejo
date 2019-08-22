@@ -53,6 +53,9 @@ header h1{
     width: 850px;
     top: 105px;
 }
+#Tabla3 tr{
+    padding-bottom: 15px;
+}
 #Tabla3 tr:nth-child(1){
     width: 425px;
 }
