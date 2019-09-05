@@ -13,17 +13,18 @@
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
-        <div class="row">
-        <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
-        <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
-        <div class="col-sm-2"><a href="talleres.php">Talleres</a></div>
-        <div class="col-sm-2"><a href="diplomados.php">Diplomados</a></div>
-        <div class="col-sm-2"><a href="conferencias.php">Conferencias</a></div>
-        <div class="col-sm-2"><a href="contacto.php">Contacto</a></div>
-        <div class="col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
+            <div class="collapse navbar-collapse">
+            <div class="row">
+            <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
+            <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
+            <div class="col-sm-2"><a href="talleres.php">Talleres</a></div>
+            <div class="col-sm-2"><a href="diplomados.php">Diplomados</a></div>
+            <div class="col-sm-2"><a href="conferencias.php">Conferencias</a></div>
+            <div class="col-sm-2"><a href="contacto.php">Contacto</a></div>
+            <div class="col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
+            </div>
+            </div>
         </div>
-
-    </div>
 
     </nav>
     <header>
