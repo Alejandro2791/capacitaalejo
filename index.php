@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!--vincular con formulario.js-->
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
@@ -13,16 +15,23 @@
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
-            <div class="navbar-collapse navbar-right">
-                <div class="row">
-                <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
-                <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
-                <div class="col-sm-2"><a href="talleres.php">Talleres</a></div>
-                <div class="col-sm-2"><a href="diplomados.php">Diplomados</a></div>
-                <div class="col-sm-2"><a href="conferencias.php">Conferencias</a></div>
-                <div class="col-sm-2"><a href="contacto.php">Contacto</a></div>
-                <div class="col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
-                </div>
+        <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+            <li><a href="index.php">Nosotros</a></li>
+            <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
+            <li><a href="talleres.php">Talleres</a></li>
+            <li><a href="diplomados.php">Diplomados</a></li>
+            <li><a href="conferencias.php">Conferencias</a></li>
+            <li><a href="contacto.php">Contacto</a></li>
+            <li><a href="javascript:formLogin();">Iniciar Sesión</a></li>
+            </ul>
             </div>
         </div>
 
