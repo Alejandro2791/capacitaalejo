@@ -10,9 +10,9 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
-        <nav>
     <!-- Menu Principal -->
-    <div class="container-fluid Menu_Principal">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid Menu_Principal">
         <div class="row">
         <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
         <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
