@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!--vincular con formulario.js-->
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
