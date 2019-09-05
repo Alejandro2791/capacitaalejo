@@ -13,6 +13,7 @@
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
+            <div class="navbar-collapse">
             <ul class="nav navbar-nav">
             <li><a href="index.php">Nosotros</a></li>
             <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
@@ -22,6 +23,7 @@
             <li><a href="contacto.php">Contacto</a></li>
             <li><a href="javascript:formLogin();">Iniciar Sesión</a></li>
             </ul>
+            </div>
         </div>
 
     </nav>
