@@ -7,24 +7,51 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--vincular con formulario.js-->
-	<script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
 </head>
     <body>
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid Menu_Principal">
-            <div class="row">
-            <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
-            <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
-            <div class="col-sm-1"><a href="talleres.php">Talleres</a></div>
-            <div class="col-sm-1"><a href="diplomados.php">Diplomados</a></div>
-            <div class="col-sm-2"><a href="conferencias.php">Conferencias</a></div>
-            <div class="col-sm-2"><a href="contacto.php">Contacto</a></div>
-            <div class="col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
-            </div>
-        </div>
-
-    </nav>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
     </header>
