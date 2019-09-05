@@ -12,7 +12,7 @@
     <body>
         <nav>
     <!-- Menu Principal -->
-    <div class="container">
+    <div class="container Menu_Principal">
         <div class="row">
         <div class="col-sm-1">Nosotros</div>
         <div class="col-sm-2">Curso de Capacitación</div>
