@@ -70,9 +70,9 @@
     </div>
     <br><br><br><br><br><br><br><br>
     <footer class="container-fluid text-center">
-        <p> id="Parrafo_tabla4">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
-            ac odio mauris justo. Luctus arcu, urna praesent at id quisque <br>
-            ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu
+        <p> Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
+            ac odio mauris justo. Luctus arcu, urna praesent at id quisque
+            ac. <br><br> Arcu es massa vestibulum malesuada, integer vivamus elit eu
              mauris eus, cum eros quis a</p>
     </footer>
     </body>
