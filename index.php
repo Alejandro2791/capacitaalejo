@@ -14,13 +14,13 @@
     <!-- Menu Principal -->
     <div class="container">
         <div class="row">
-        <div class="col-md-1">Nosotros</div>
-        <div class="col-md-1">Curso de Capacitación</div>
-        <div class="col-md-1">Talleres</div>
-        <div class="col-md-1">Diplomados</div>
-        <div class="col-md-1">Conferencias</div>
-        <div class="col-md-1">Contacto</div>
-        <div class="col-md-1">Iniciar Sesión</div>
+        <div class="col-sm-2">Nosotros</div>
+        <div class="col-sm-2">Curso de Capacitación</div>
+        <div class="col-sm-2">Talleres</div>
+        <div class="col-sm-2">Diplomados</div>
+        <div class="col-sm-2">Conferencias</div>
+        <div class="col-sm-2">Contacto</div>
+        <div class="col-sm-2">Iniciar Sesión</div>
         </div>
 
     </div>
