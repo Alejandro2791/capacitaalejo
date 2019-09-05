@@ -13,18 +13,7 @@
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
-        <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>  
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span>                        
-      </button>
-    </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-collapse">
             <ul class="nav navbar-nav">
             <li><a href="index.php">Nosotros</a></li>
             <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
