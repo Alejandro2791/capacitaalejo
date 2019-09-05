@@ -24,7 +24,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-            <li><a href="index.php">Nosotros</a></li>
+            <li class="active"><a href="index.php">Nosotros</a></li>
             <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
             <li><a href="talleres.php">Talleres</a></li>
             <li><a href="diplomados.php">Diplomados</a></li>
