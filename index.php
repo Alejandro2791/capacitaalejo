@@ -14,15 +14,15 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
             <div class="navbar-collapse">
-            <ul class="nav navbar-nav">
-            <li><a href="index.php">Nosotros</a></li>
-            <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
-            <li><a href="talleres.php">Talleres</a></li>
-            <li><a href="diplomados.php">Diplomados</a></li>
-            <li><a href="conferencias.php">Conferencias</a></li>
-            <li><a href="contacto.php">Contacto</a></li>
-            <li><a href="javascript:formLogin();">Iniciar Sesión</a></li>
-            </ul>
+                <div class="row">
+                <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
+                <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
+                <div class="col-sm-2"><a href="talleres.php">Talleres</a></div>
+                <div class="col-sm-2"><a href="diplomados.php">Diplomados</a></div>
+                <div class="col-sm-2"><a href="conferencias.php">Conferencias</a></div>
+                <div class="col-sm-2"><a href="contacto.php">Contacto</a></div>
+                <div class="col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
+                </div>
             </div>
         </div>
 
