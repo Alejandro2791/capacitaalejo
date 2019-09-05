@@ -11,7 +11,7 @@
 </head>
     <body>
     <!-- Menu Principal -->
-        <nav class="navbar navbar-inverse Menu_Principal">
+        <nav class="navbar navbar-inverse">
         <div class="container-fluid">
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
