@@ -14,6 +14,14 @@
     text-decoration:none;
     color: #000000;
 }
+.Menu_Principal a:visited{
+    text-decoration:none;
+    color: #000000;
+}
+.Menu_Principal a:hover{
+    text-decoration:none;
+    color: #000000;
+}
 nav table{
     height: 29px;
     float: right;
