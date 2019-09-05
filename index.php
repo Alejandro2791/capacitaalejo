@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
-        <nav>
+        <nav class="navbar navbar-inverse">
     <!-- Menu Principal -->
     <div class="container-fluid Menu_Principal">
         <div class="row">
