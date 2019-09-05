@@ -10,8 +10,9 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
-        <nav class="nav Menu_Principal">
     <!-- Menu Principal -->
+        <nav class="nav Menu_Principal">
+        <div class="container-fluid">
     <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
         <li><a href="index.php">Nosotros</a></li>
@@ -24,7 +25,7 @@
         <ul class="nav navbar-nav navbar-right">
         <li><a href="javascript:formLogin();">Iniciar Sesión</a></li>
         </ul>
-
+        </div>
     </div>
 
     </nav>
