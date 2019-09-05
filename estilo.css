@@ -1,4 +1,7 @@
 /* Menu Principal */
+.navbar{
+    background-color: #FFFFFF;
+}
 .Menu_Principal{
     top: 10px;
     height: 29px;
