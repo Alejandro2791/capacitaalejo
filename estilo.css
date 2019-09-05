@@ -1,6 +1,7 @@
 /* Menu Principal */
-.Menu_Principal{
+#Menu_Principal{
     top: 10px;
+    height: 29px;
     position: relative;
     border-spacing: 10px 5px;
     text-align: center;
