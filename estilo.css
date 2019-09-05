@@ -1,5 +1,16 @@
 /* Menu Principal */
 .Menu_Principal{
+    height: 29px;
+    float: right;
+    position: relative;
+    border-spacing: 10px 5px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10;
+    color: #000000;
+}
+nav table{
+    height: 29px;
     float: right;
     position: relative;
     border-spacing: 10px 5px;

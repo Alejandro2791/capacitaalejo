@@ -15,11 +15,11 @@
     <div class="container Menu_Principal">
         <div class="row">
         <div class="col-sm-1">Nosotros</div>
-        <div class="col-sm-2">Curso de Capacitación</div>
-        <div class="col-sm-1">Talleres</div>
-        <div class="col-sm-1">Diplomados</div>
-        <div class="col-sm-1">Conferencias</div>
-        <div class="col-sm-1">Contacto</div>
+        <div class="col-sm-3">Curso de Capacitación</div>
+        <div class="col-sm-2">Talleres</div>
+        <div class="col-sm-2">Diplomados</div>
+        <div class="col-sm-2">Conferencias</div>
+        <div class="col-sm-2">Contacto</div>
         <div class="col-sm-2">Iniciar Sesión</div>
         </div>
 
