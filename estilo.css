@@ -1,7 +1,4 @@
 /* Menu Principal */
-.navbar{
-    background-color: #FFFFFF;
-}
 .Menu_Principal{
     top: 10px;
     height: 29px;
@@ -12,6 +9,7 @@
     font-family: Arial;
     font-weight: bold;
     font-size: 10;
+    background-color: #FFFFFF;
     color: #000000;
 }
 nav table{
