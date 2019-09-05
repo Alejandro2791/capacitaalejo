@@ -13,7 +13,7 @@
     <!-- Menu Principal -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid Menu_Principal">
-            <div class="navbar-collapse">
+            <div class="navbar-collapse navbar-right">
                 <div class="row">
                 <div class="col-sm-2"><a href="index.php">Nosotros</a></div>
                 <div class="col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
