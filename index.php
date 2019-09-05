@@ -4,24 +4,27 @@
     <title>Capacita Alejo</title>
      <!-- Temas-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--vincular con formulario.js-->
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
         <nav>
-
     <!-- Menu Principal -->
-    <table>
-            <tr>
-            <td><a href="index.php">Nosotros</a></td>
-            <td><a href="curso_capacitacion.php">Curso de Capacitación</a></td>
-            <td><a href="talleres.php">Talleres</a></td>
-            <td><a href="diplomados.php">Diplomados</a></td>
-            <td><a href="conferencias.php">Conferencias</a></td>
-            <td><a href="contacto.php">Contacto</a></td>
-            <td><a href="javascript:formLogin();">Iniciar Sesión</a></td>
-            </tr>
-    </table>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-2">Nosotros</div>
+        <div class="col-sm-2">Curso de Capacitación</div>
+        <div class="col-sm-2">Talleres</div>
+        <div class="col-sm-2">Diplomados</div>
+        <div class="col-sm-2">Conferencias</div>
+        <div class="col-sm-2">Contacto</div>
+        <div class="col-sm-2">Iniciar Sesión</div>
+        </div>
+
+    </div>
+
     </nav>
     <header>
         <table><tr><td><h1>Capacitación Alejos<h1></td></tr></table>
