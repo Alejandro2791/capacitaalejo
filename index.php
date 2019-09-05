@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
-        <nav class="navbar navbar-right">
+        <nav class="nav navbar-nav navbar-right">
     <!-- Menu Principal -->
     <div class="container-fluid Menu_Principal">
         <div class="row">
