@@ -10,18 +10,20 @@
 	<script type="text/javascript" src="javascript.js"></script>
 </head>
     <body>
-        <nav class="nav navbar-nav">
+        <nav class="nav Menu_Principal">
     <!-- Menu Principal -->
-    <div class="container-fluid Menu_Principal">
-        <div class="row">
-        <div class="navbar-right col-sm-2"><a href="index.php">Nosotros</a></div>
-        <div class="navbar-right col-sm-2"><a href="curso_capacitacion.php">Curso de Capacitación</a></div>
-        <div class="navbar-right col-sm-2"><a href="talleres.php">Talleres</a></div>
-        <div class="navbar-right col-sm-2"><a href="diplomados.php">Diplomados</a></div>
-        <div class="navbar-right col-sm-2"><a href="conferencias.php">Conferencias</a></div>
-        <div class="navbar-right col-sm-2"><a href="contacto.php">Contacto</a></div>
-        <div class="navbar-right col-sm-2"><a href="javascript:formLogin();">Iniciar Sesión</a></div>
-        </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <li><a href="index.php">Nosotros</a></li>
+        <li><a href="curso_capacitacion.php">Curso de Capacitación</a></li>
+        <li><a href="talleres.php">Talleres</a></li>
+        <li><a href="diplomados.php">Diplomados</a></li>
+        <li><a href="conferencias.php">Conferencias</a></li>
+        <li><a href="contacto.php">Contacto</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="javascript:formLogin();">Iniciar Sesión</a></li>
+        </ul>
 
     </div>
 
