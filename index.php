@@ -25,22 +25,22 @@
       <li class="nav-item bg-light active">
         <a class="nav-link" href="index.php">Nosotros<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="curso_capacitacion.php">Curso de Capacitación</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="talleres.php">Talleres</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="diplomados.php">Diplomados</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="conferencias.php">Conferencias</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item bg-light">
         <a class="nav-link" href="javascript:formLogin();">Iniciar Sesion</a>
       </li>
     </ul>
