@@ -151,3 +151,9 @@ a:hover{
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
+    
