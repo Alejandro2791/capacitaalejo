@@ -87,6 +87,7 @@
     </section>
     </div>
     <br><br><br><br><br><br><br><br>
+    <!-- Pie de Pagina -->
     <footer class="container-fluid text-center">
         <p> Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor 
             ac odio mauris justo. Luctus arcu, urna praesent at id quisque
