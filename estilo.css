@@ -153,7 +153,7 @@ a:hover{
 }
     @media screen and (max-width: 767px) {
         body{font-size:0.8em;}
-        sidebar{display:none;}
+        .sidebar{display:none;}
         .sidenav {
           height: auto;
           padding: 15px;
