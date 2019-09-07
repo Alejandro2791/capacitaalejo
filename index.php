@@ -22,25 +22,25 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item bg-light active">
+      <li class="nav-item active">
         <a class="nav-link" href="index.php">Nosotros<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="curso_capacitacion.php">Curso de Capacitación</a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="talleres.php">Talleres</a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="diplomados.php">Diplomados</a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="conferencias.php">Conferencias</a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
-      <li class="nav-item bg-light">
+      <li class="nav-item">
         <a class="nav-link" href="javascript:formLogin();">Iniciar Sesion</a>
       </li>
     </ul>
